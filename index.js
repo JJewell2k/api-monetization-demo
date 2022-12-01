@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const stripe = require('stripe')('sk_test_YOUR-KEY');
+const stripe = require('stripe')('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');
 
 // Middleware required for Webhook Handler
 app.use(
